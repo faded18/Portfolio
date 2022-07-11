@@ -1,0 +1,47 @@
+.menu{
+height: 100vh;
+width: 300px;
+background-color:rgb(24, 24, 49) ;
+position: fixed;
+top: 0;
+color: white;
+right: -300px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+z-index: 1;
+transition: all 1s ease;
+
+&.active{
+right: 0px;
+
+}
+
+ul{
+text-decoration: none;
+font-size: 25px;
+font-weight: 100;
+list-style: none;
+width: 60%;
+
+  li{
+    margin-bottom: 25px;
+    a{
+        text-decoration: none; 
+        color: white;
+    }
+    &:hover{
+        font-weight: 400;
+    }
+    
+  }
+  
+
+
+
+}
+
+
+
+}

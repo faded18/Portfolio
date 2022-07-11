@@ -1,0 +1,13 @@
+.portlist {
+    font-size: 15px;
+    margin-left: 50px;
+    padding: 7px;
+    cursor: pointer;
+    &.active {
+      background-color: rgb(24, 24, 49);
+      border-radius: 5px;
+      padding: 7px;
+      color: white;
+      
+    }
+  }
